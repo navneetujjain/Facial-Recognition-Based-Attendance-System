@@ -32,32 +32,32 @@ Our project leverages **OpenCV** and **Google Sheets API** to create a seamless 
 
 2. **Install Dependencies**
 
-```bash
-pip install -r requirements.txt```
+   ```bash
+   pip install -r requirements.txt
 
 3. **Set Up Google Sheets API**
 
-Follow [this guide](https://developers.google.com/sheets/api/quickstart/python) to set up your Google Sheets API and download `credentials.json`.
+   Follow [this guide](https://developers.google.com/sheets/api/quickstart/python) to set up your Google Sheets API and download `credentials.json`.
 
 4. **Run the App**
 
-```bash
-Login_Window.py```
+   ```bash
+   Login_Window.py
 
-5. **Results** 📊
+## Results📊
 
 - **Accuracy:** High accuracy in facial recognition.
 - **Efficiency:** Significant reduction in time taken for attendance.
 - **Reliability:** Robust local and cloud data management.
 
-6. **Future Scope** 🚀
+## Future Scope🚀
 
 - **Enhanced Object Detection:** Improve detection and localization capabilities.
 - **Biometric Integration:** Add fingerprint and voice recognition.
 - **Augmented Reality (AR):** Incorporate AR for better interaction.
 - **Emotion Recognition:** Detect and analyze facial expressions.
 
-7. **Contributors** ✨
+## Contributors✨
 
 - **[Navneet Ujjain](https://www.linkedin.com/in/navneetujjain/)**
 - **[Aayushi Verma](https://www.linkedin.com/in/aayushi-verma-151838240/)**
