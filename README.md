@@ -33,7 +33,7 @@ Our project leverages **OpenCV** and **Google Sheets API** to create a seamless 
 2. **Install Dependencies**
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt```
 
 3. **Set Up Google Sheets API**
 
@@ -42,7 +42,7 @@ Follow [this guide](https://developers.google.com/sheets/api/quickstart/python) 
 4. **Run the App**
 
 ```bash
-Login_Window.py
+Login_Window.py```
 
 5. **Results** 📊
 
