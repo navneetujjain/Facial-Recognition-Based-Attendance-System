@@ -10,8 +10,8 @@ from googleapiclient.discovery import build
 from google.oauth2 import service_account
 
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
-SERVICE_ACCOUNT_FILE = "C:/Users/navne/OneDrive/Desktop/Project New Environemt/attendance_system-main/sonorous-mix-422222-k4-76584c592ca8.json"
-SPREADSHEET_ID = "1KByMC6oXpKZRI-N0L3SGprBoLlY2lxAmfmJbKA2AWFE"
+SERVICE_ACCOUNT_FILE = #Enter Address of your file
+SPREADSHEET_ID = #Enter The ID of your spreadsheet
 
 
 
@@ -25,7 +25,7 @@ class FaceRecognitionApp:
         self.attendance_list = []
         
         self.sfr = SimpleFacerec()
-        self.sfr.load_encoding_images("C:/Users/navne/OneDrive/Desktop/Project New Environemt/attendance_system-main/faces_database/")
+        self.sfr.load_encoding_images("faces_database/")
         
         self.cap = cv2.VideoCapture(self.current_camera_index)
 
@@ -119,7 +119,7 @@ class FaceRecognitionApp:
         #self.copy_names_button.config(state=tk.NORMAL)
 
     
-        attendance_logger = AttendanceLogger("C:/Users/navne/OneDrive/Desktop/Project New Environemt/attendance_system-main/attendance.log")
+        attendance_logger = AttendanceLogger("attendance.log")
 
     # Log the attendance
         attendance_logger.log_attendance(self.attendance_list)
