@@ -2,7 +2,7 @@
 
 Welcome to our Automated Attendance System! This project uses facial recognition to streamline attendance tracking. Say goodbye to manual roll calls and hello to efficient, real-time updates! 🚀
 
-![Banner Image](https://your-link-to-banner-image.com/banner.jpg)
+![Banner Image](Login.png)
 
 ## 📚 Table of Contents
 - [Overview](#overview)
