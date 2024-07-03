@@ -44,6 +44,8 @@ Our project leverages **OpenCV** and **Google Sheets API** to create a seamless 
    ```bash
    Login_Window.py
 
+
+![App Image](Interface.png)
 ## Results📊
 
 - **Accuracy:** High accuracy in facial recognition.
