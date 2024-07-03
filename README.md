@@ -65,5 +65,7 @@ Our project leverages **OpenCV** and **Google Sheets API** to create a seamless 
 - **[Karan Singh](https://www.linkedin.com/in/karansingh0312/)**
 - **[Navneet Ujjain](https://www.linkedin.com/in/navneetujjain/)**
 
+  Feel Free to reach out to any of us for any help.
+
 
 
