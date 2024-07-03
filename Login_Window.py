@@ -1,5 +1,5 @@
 import tkinter as tk
-from main_copy import FaceRecognitionApp
+from main import FaceRecognitionApp
 from PIL import Image, ImageTk
 import tkinter.messagebox as tmsg
 import tkinter.ttk as ttk
@@ -13,12 +13,12 @@ class LoginWindow:
         self.root.geometry("600x500")
         self.root.configure(bg="#333333")
 
-        self.background_image = ImageTk.PhotoImage(Image.open("C:/Users/navne/OneDrive/Desktop/Project New Environemt/attendance_system-main/background.jpg"))
+        self.background_image = ImageTk.PhotoImage(Image.open("background.jpg"))
         self.background_label = tk.Label(self.root, image=self.background_image)
         self.background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
         # Add logo
-        self.logo = ImageTk.PhotoImage(Image.open("C:/Users/navne/OneDrive/Desktop/Project New Environemt/attendance_system-main/logo.png"))
+        self.logo = ImageTk.PhotoImage(Image.open("logo.png"))
         self.logo_label = tk.Label(self.root, image=self.logo, bg="#333333")
         self.logo_label.pack(pady=(30, 0))
 
@@ -76,7 +76,7 @@ class LoginWindow:
         #self.progress.start(10)
 
         
-        if id == "Navneet" and password == "Tce@123":
+        if id == "Navneet" and password == "Tce@123": #You can enter your own set of id and passwords
             #self.progress.stop()
             #self.progress.place_forget()
             self.root.destroy()
