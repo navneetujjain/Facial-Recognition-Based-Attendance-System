@@ -61,8 +61,9 @@ Our project leverages **OpenCV** and **Google Sheets API** to create a seamless 
 
 ## Contributors✨
 
-- **[Navneet Ujjain](https://www.linkedin.com/in/navneetujjain/)**
 - **[Aayushi Verma](https://www.linkedin.com/in/aayushi-verma-151838240/)**
+- **[Karan Singh](https://www.linkedin.com/in/karansingh0312/)**
+- **[Navneet Ujjain](https://www.linkedin.com/in/navneetujjain/)**
 
 
 
