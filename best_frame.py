@@ -42,7 +42,7 @@ def choose_best_frame(video_path, face_id, name):
     if best_face is not None:
         # Construct the file name with the provided ID
         filename = f"{name}_{face_id}.jpg"
-        filepath = os.path.join("C:/Users/navne/OneDrive/Desktop/Project New Environemt/attendance_system-main/faces_database", filename)
+        filepath = os.path.join("faces_database", filename)
         cv2.imwrite(filepath, best_face)
         print("Best face cropped and saved successfully as:", filename)
     else:
