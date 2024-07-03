@@ -45,7 +45,7 @@ Our project leverages **OpenCV** and **Google Sheets API** to create a seamless 
    Login_Window.py
 
 
-![App Image](Interface.png)
+![App Image]()
 ## Results📊
 
 - **Accuracy:** High accuracy in facial recognition.
